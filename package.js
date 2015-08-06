@@ -1,7 +1,7 @@
 Package.describe({
   name: 'gwendall:iron-router-body-attribute',
   summary: 'Adds a [data-route] attribute with the route name to the body',
-  version: '0.1.0',
+  version: '0.1.1',
   git: "https://github.com/gwendall/meteor-iron-router-body-attribute.git",
 });
 
