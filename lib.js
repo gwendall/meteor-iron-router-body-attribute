@@ -1,5 +1,6 @@
-Router.onBeforeAction(function() {
+Router.onAfterAction(function() {
   var route = Router.current().route.getName();
-  $('body').attr('data-route', route);
-  this.next();
+  var $body = $('body');
+  if ($body.attr('data-route') !== route) $body.attr('data-route', route);
+  // this.next();
 });
